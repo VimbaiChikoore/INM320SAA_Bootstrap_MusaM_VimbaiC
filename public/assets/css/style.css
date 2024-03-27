@@ -32,6 +32,10 @@ body{
     padding: 1%;
 }
 
+.trends-border{
+    border-left: 1px solid #9FA2B4;;
+}
+
 .trend-status-name{
     font-weight: 400;
     font-size: 1.2em;
