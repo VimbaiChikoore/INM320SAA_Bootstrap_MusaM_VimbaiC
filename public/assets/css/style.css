@@ -10,6 +10,33 @@ body{
     font-size: 24px;
 }
 
+.btn-group:active{
+    border:none;
+}
+
+.user-name{
+    font-weight: 600;
+    font-size: 16px;
+    border-left: 1px solid #9FA2B4; 
+    width:max-content;
+    white-space: nowrap;
+}
+
+.user-name:hover{
+    border-left: 1px solid #9FA2B4;
+}
+
+.user-name:active{
+    color:#3751FF;
+    border:0px;
+}
+
+
+.avatar-image{
+    height: 50px;
+    float:right;
+}
+
 /* Vimbai: Ticket Status Cards */
 
 .ticket-name{
@@ -39,7 +66,7 @@ body{
 }
 
 .trends-border{
-    border-left: 1px solid #9FA2B4;;
+    border-left: 1px solid #9FA2B4;
 }
 
 .trend-status-name{
