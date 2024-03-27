@@ -109,5 +109,26 @@ body{
     font-size: 24px;
 }
 
+.card.trends {
+    margin-bottom: 30px; 
+}
+
+/* Add spacing for unresolved tickets and tasks section */
+#cardbg, #cardbg2 {
+    margin-bottom: 50px;
+    padding: 20px;
+}
+
+.list-group-item {
+    padding: 15px;
+    margin-bottom: 10px;
+}
+
+.view {
+    margin-top: 30px;
+}
+
+
+
 /* ----------Don't code past here--------------- */
 /*# sourceMappingURL=style.css.map */
