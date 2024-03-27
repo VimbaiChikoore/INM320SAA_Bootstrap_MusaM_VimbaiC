@@ -4,6 +4,12 @@ body{
     color: #252733;
 }
 
+/* Top Bar */
+.overview{
+    font-weight: 600;
+    font-size: 24px;
+}
+
 /* Vimbai: Ticket Status Cards */
 
 .ticket-name{
