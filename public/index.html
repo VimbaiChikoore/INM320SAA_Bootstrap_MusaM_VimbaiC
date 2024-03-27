@@ -87,7 +87,7 @@
             <p>Overview header TBD</p>
 
             <!-- Vimbai: Ticket status Cards -->
-            <div class="row py-3 ticket-status text-center" style="height: 150px;" >
+            <div class="row py-3 ticket-status text-center d-flex flex-wrap" style="height: 150px;" >
               <!-- Unresolved Card-->
               <div class="col-sm-3 py-2">
                 <div class="card h-100 ticket-body">
@@ -129,49 +129,44 @@
             </div>
 
             <!-- Vimbai: Today's Trends Section -->
-            <div class="card d-flex flex-row">
+            <div class="card d-flex flex-row flex-wrap">
               
               <div class="col-sm-8 card-body p-4">
                 <p class="row t-trends">Today's trends</p>
                 <img src="/assets/images/trend-graph.PNG" class="img-fluid" alt="Responsive image">
               </div>
               <div class="trends-border d-flex flex-column justify-content-around col-sm-4 card-body py-3 px-0 text-center">
-
+                <!-- Resolved -->
                 <div>
                   <h5 class="m-sm-auto trend-status-name py-1">Resolved</h5>
                   <p class="trend-status-number">449</p>
                 </div>
-
                 <hr>
-
+                <!-- Recieved -->
                 <div>
                   <h5 class="m-sm-auto trend-status-name py-1">Recieved</h5>
                   <p class="trend-status-number">426</p>
                 </div>
-
                 <hr>
-
+                <!-- Avg 1st res time -->
                 <div>
                   <h5 class="m-sm-auto trend-status-name py-1">Average first response time</h5>
                   <p class="trend-status-number">33m</p>
                 </div>
-
                 <hr>
-
+                <!-- Avg res time -->
                 <div>
                   <h5 class="m-sm-auto trend-status-name py-1">Average response time</h5>
                   <p class="trend-status-number">3h 8m</p>
                 </div>
-
                 <hr>
-
+                <!-- Res w/in SLA -->
                 <div>
                   <h5 class="m-sm-auto trend-status-name py-1">Resolution within SLA</h5>
                   <p class="trend-status-number">94%</p>
                 </div>
-
                 <hr>
-
+                <!-- Resolved -->
                 <div>
                   <h5 class="m-sm-auto trend-status-name py-1">Resolved</h5>
                   <p class="trend-status-number">449</p>
