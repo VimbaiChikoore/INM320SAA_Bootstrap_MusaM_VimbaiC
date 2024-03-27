@@ -4,6 +4,35 @@ body{
     color: #252733;
 }
 
+#menu .nav-link .d-none.d-sm-inline,
+#menu .nav-link .fs-4 {
+    color: #A4A6B3 !important; /* idebar text color to DDE2FF */
+}
+
+.pt-2 {
+    padding-top: 40px !important; 
+    
+}
+
+.nav-link {
+    margin-bottom: 10px !important; /
+}
+
+/*  margin to the right of the images */
+.nav-link img {
+    margin-right: 10px; 
+    vertical-align: middle;
+}
+
+.d-flex.align-items-center.pb-3.mb-md-0.me-md-auto.text-white.text-decoration-none img {
+    margin-right: 12px; 
+    vertical-align: middle; 
+}
+
+#menu .nav-link:first-child .d-none.d-sm-inline {
+    color: #A4A6B3 !important;
+}
+
 /* Top Bar */
 .overview{
     font-weight: 600;
