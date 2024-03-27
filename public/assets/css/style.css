@@ -25,5 +25,26 @@ body{
     color:#3751FF;
 }
 
+/* Vimbai: Today's Trens Section */
+.t-trends{
+    font-weight: 600;
+    font-size: 19px;
+    padding: 1%;
+}
+
+.trend-status-name{
+    font-weight: 400;
+    font-size: 1.2em;
+    color:#9FA2B4;
+}
+
+.trend-status-number{
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.trend-status-border{
+    border:1px solid #9FA2B4;
+}
 /* ----------Don't code past here--------------- */
 /*# sourceMappingURL=style.css.map */
