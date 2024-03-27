@@ -89,7 +89,7 @@
             <!-- Vimbai: Ticket status Cards -->
             <div class="row py-3 ticket-status text-center" style="height: 150px;" >
               <!-- Unresolved Card-->
-              <div class="col-sm-3">
+              <div class="col-sm-3 py-2">
                 <div class="card h-100 ticket-body">
                   <div class="card-body">
                     <h5 class="card-title ticket-name">Unresolved</h5>
@@ -98,7 +98,7 @@
                 </div>
               </div>
               <!-- Overdue Card-->
-              <div class="col-sm-3 ">
+              <div class="col-sm-3 py-2">
                 <div class="card h-100 ticket-body">
                   <div class="card-body">
                     <h5 class="card-title ticket-name">Overdue</h5>
@@ -107,7 +107,7 @@
                 </div>
               </div>
             <!-- Open Card-->
-              <div class="col-sm-3">
+              <div class="col-sm-3 py-2">
                 <div class="card h-100 ticket-body">
                   <div class="card-body">
                     <h5 class="card-title ticket-name">Open</h5>
@@ -116,7 +116,7 @@
                 </div>
               </div>
             <!-- On Hold Card -->
-              <div class="col-sm-3">
+              <div class="col-sm-3 py-2">
                 <div class="card h-100 ticket-body">
                   <div class="card-body">
                     <h5 class="card-title ticket-name">On hold</h5>
@@ -124,13 +124,50 @@
                   </div>
                 </div>
               </div>
+
               <!-- end of Ticket status Cards section -->
             </div>
 
             <!-- Vimbai: Today's Trends Section -->
-            <div class="card py-3 d-block">
-              <div class="card-body">
-                This is some text within a card body.
+            <div class="card py-3 d-flex flex-row">
+              
+              <div class="col-sm card-body p-4">
+                <p class="row t-trends">Today's trends</p>
+                <img src="/assets/images/trend-graph.PNG" class="img-fluid" style="width:60%;" alt="Responsive image">
+              </div>
+              <div class="d-flex flex-column justify-content-around col-sm card-body py-2">
+
+                <div>
+                  <h5 class="m-sm-auto">Resolved</h5>
+                  <p>449</p>
+                </div>
+
+                <div>
+                  <h5 class="m-sm-auto">Recieved</h5>
+                  <p>426</p>
+                </div>
+
+                <div>
+                  <h5 class="m-sm-auto">Average first response time</h5>
+                  <p>33m</p>
+                </div>
+
+                <div>
+                  <h5 class="m-sm-auto">Average response time</h5>
+                  <p>3h 8m</p>
+                </div>
+
+                <div>
+                  <h5 class="m-sm-auto">Resolution within SLA</h5>
+                  <p>94%</p>
+                </div>
+
+                <div>
+                  <h5 class="m-sm-auto">Resolved</h5>
+                  <p>449</p>
+                </div>
+
+
               </div>
               <!-- end of Today's Trends Section -->
             </div>

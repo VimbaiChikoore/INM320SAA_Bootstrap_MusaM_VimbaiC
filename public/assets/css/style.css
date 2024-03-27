@@ -5,6 +5,7 @@ body{
 }
 
 /* Vimbai: Ticket Status Cards */
+
 .ticket-name{
     font-weight: 600;
     font-size: 19px;
@@ -20,6 +21,7 @@ body{
 /* HELP: FOR SOME REASON THE TITLE COLOR WONT CHANGE */
 .ticket-body:hover{
     border-color:#3751FF;
+    border-width: 2px;
     color:#3751FF;
 }
 
