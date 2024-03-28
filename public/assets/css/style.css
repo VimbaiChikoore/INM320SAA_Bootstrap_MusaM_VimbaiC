@@ -113,6 +113,17 @@ body{
 .view {
     margin-top: 30px;
 }
+.un-tic-bold{
+    font-weight: 600;
+    font-size: 19px;
+}
+.un-stat{
+    font-weight: 550;
+}
+
+.num-gray{
+    color: #9FA2B4;
+}
 
 
 /* Breakpoint for big screen*/
