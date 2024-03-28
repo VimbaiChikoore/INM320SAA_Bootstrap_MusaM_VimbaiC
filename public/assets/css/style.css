@@ -163,6 +163,8 @@ body{
     font-size: 0.9em; 
 }
 
-
+.gray-text {
+    color: gray; 
+}
 /* ----------Don't code past here--------------- */
 /*# sourceMappingURL=style.css.map */
