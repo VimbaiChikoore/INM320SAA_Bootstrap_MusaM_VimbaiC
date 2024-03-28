@@ -140,5 +140,18 @@ body{
     
 }
 
+.view-blue {
+    color: blue;
+}
+
+.text-muted {
+    color: grey;
+}
+
+.small-text {
+    font-size: 0.9em; 
+}
+
+
 /* ----------Don't code past here--------------- */
 /*# sourceMappingURL=style.css.map */
