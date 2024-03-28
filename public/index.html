@@ -16,13 +16,14 @@
     <div class="container-fluid">
       <div class="row">
         <!-- Sidebar -->
-        <div class="col-auto col-md-3 col-xl-2 bg-dark">
-          <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-white min-vh-100">
-            <a href="/" class="d-flex align-items-center pb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+        <div class="col-sm-auto md-col-2 bg-dark sticky-top">
+          <div class="d-flex flex-sm-column flew-row flex-nowrap align-items-center sticky-top text-white overflow-auto">
+            
+            <a href="#" class="d-block p-3 text-decoration-none">
               <img src="assets/images/d.png" alt="Tickets" width="30" height="30" class="rounded-circle">
               <span class="fs-5 d-none d-sm-inline">Dashboard kit</span>
             </a>
-            <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">
+            <ul class="nav nav-pills nav-flush flex-sm-column flex-row flex-nowrap mb-auto  align-items-center align-items-sm-start" id="menu">
               <!-- Sidebar Navigation -->
               <li class="nav-item">
                 <a href="#" class="nav-link align-middle px-0">
@@ -92,7 +93,7 @@
             <div class="container-fluid">
               <div class="d-flex justify-content-between">
 
-                <div class="col-sm-8">
+                <div class="col-md">
                   <p class="overview">Overview</p>
                 </div>
 
@@ -109,18 +110,6 @@
                   <button type="button" class="btn user-name" href="#">Jones Ferdinand</button>
 
                   <button type="button" class="btn" href="#"><img src="/assets/images/profile-image.png" class="avatar-image d-inline img-fluid img-thumbnail rounded-circle"></button>
-                <!-- <div class="col-sm">
-                  <p class="d-inline">icon</p>
-                </div>
-                <div class="d-inline col-sm">
-                  <p>icon</p>
-                </div>
-                <div class="d-inline p-2 col-sm-6">
-                  <p class="avatar-name">Jones Ferdinand</p>
-                </div>
-                <div class="d-inline p-2 col-sm">
-                  <img src="/assets/images/profile-image.png" class="img-fluid img-thumbnail rounded-circle w-50">
-                </div> -->
               </div>
 
               </div>
@@ -128,9 +117,9 @@
             </div>
 
             <!-- Vimbai: Ticket status Cards -->
-            <div class="row py-3 ticket-status text-center d-flex flex-wrap" style="height: 150px;" >
+            <div class="row py-3 ticket-status text-center d-flex md-flex-wrap">
               <!-- Unresolved Card-->
-              <div class="col-sm-3 py-2">
+              <div class="col-lg-3 py-2">
                 <div class="card h-100 ticket-body">
                   <div class="card-body">
                     <h5 class="card-title ticket-name">Unresolved</h5>
@@ -139,7 +128,7 @@
                 </div>
               </div>
               <!-- Overdue Card-->
-              <div class="col-sm-3 py-2">
+              <div class="col-lg-3 py-2">
                 <div class="card h-100 ticket-body">
                   <div class="card-body">
                     <h5 class="card-title ticket-name">Overdue</h5>
@@ -148,7 +137,7 @@
                 </div>
               </div>
             <!-- Open Card-->
-              <div class="col-sm-3 py-2">
+              <div class="col-lg-3 py-2">
                 <div class="card h-100 ticket-body">
                   <div class="card-body">
                     <h5 class="card-title ticket-name">Open</h5>
@@ -157,7 +146,7 @@
                 </div>
               </div>
             <!-- On Hold Card -->
-              <div class="col-sm-3 py-2">
+              <div class="col-lg-3 py-2">
                 <div class="card h-100 ticket-body">
                   <div class="card-body">
                     <h5 class="card-title ticket-name">On hold</h5>
@@ -172,14 +161,14 @@
             <!-- Vimbai: Today's Trends Section -->
             <div class="card d-flex flex-row flex-wrap">
               
-              <div class="col-sm-8 card-body p-4">
+              <div class="col-lg-8 card-body p-4">
                 <p class="row t-trends">Today's trends</p>
                 <img src="/assets/images/trend-graph.PNG" class="img-fluid" alt="Responsive image">
               </div>
               <div class="trends-border d-flex flex-column justify-content-around col-sm-4 card-body py-3 px-0 text-center">
                 <!-- Resolved -->
                 <div>
-                  <h5 class="m-sm-auto trend-status-name py-1">Resolved</h5>
+                  <h5 class="m-md-auto trend-status-name py-1">Resolved</h5>
                   <p class="trend-status-number">449</p>
                 </div>
                 <hr>
@@ -221,7 +210,7 @@
             <!-- Musa: Unresolved tickets & tasks section -->
             <!-- UNRESOLVED TICKETS -->
             <div class="row justify-content-between mb-4 mt-4">
-              <div class="col-md-6 mb-4">
+              <div class="col-lg-6 mb-4">
                 <div class="card h-100">
                   <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">
@@ -254,7 +243,7 @@
               </div>
             
               <!-- TASKS -->
-              <div class="col-md-6 mb-4">
+              <div class="col-lg-6 mb-4">
                 <div class="card h-100">
                   <div class="card-body">
                     <div class="d-flex justify-content-between align-items-center">

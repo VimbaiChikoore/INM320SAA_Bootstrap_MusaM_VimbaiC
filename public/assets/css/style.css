@@ -6,7 +6,7 @@ body{
 
 #menu .nav-link .d-none.d-sm-inline,
 #menu .nav-link .fs-4 {
-    color: #A4A6B3 !important; /* idebar text color to DDE2FF */
+    color: #A4A6B3 !important; /* sidebar text color to DDE2FF */
 }
 
 .pt-2 {
@@ -37,6 +37,7 @@ body{
 .overview{
     font-weight: 600;
     font-size: 24px;
+    margin: auto;
 }
 
 .btn-group:active{
@@ -44,22 +45,8 @@ body{
 }
 
 .user-name{
-    font-weight: 600;
-    font-size: 16px;
-    border-left: 1px solid #9FA2B4; 
-    width:max-content;
-    white-space: nowrap;
+    display:none;
 }
-
-.user-name:hover{
-    border-left: 1px solid #9FA2B4;
-}
-
-.user-name:active{
-    color:#3751FF;
-    border:0px;
-}
-
 
 .avatar-image{
     height: 50px;
@@ -80,7 +67,6 @@ body{
 }
 
 
-/* HELP: FOR SOME REASON THE TITLE COLOR WONT CHANGE */
 .ticket-body:hover{
     border-color:#3751FF;
     border-width: 2px;
@@ -129,6 +115,30 @@ body{
 }
 
 
+/* Breakpoint for big screen*/
+/* 768 is breakpoint bc we are using md for most bootstrap breakpoint */
+@media only screen and (min-width: 768px) {
+    
+/* Show topbar profile name on wide screen */
+
+.user-name{
+    font-weight: 600;
+    font-size: 16px;
+    border-left: 1px solid #9FA2B4; 
+    width:max-content;
+    display: inline;
+}
+
+.user-name:hover{
+    border-left: 1px solid #9FA2B4;
+}
+
+.user-name:active{
+    color:#3751FF;
+    border:0px;
+}
+    
+}
 
 /* ----------Don't code past here--------------- */
 /*# sourceMappingURL=style.css.map */
